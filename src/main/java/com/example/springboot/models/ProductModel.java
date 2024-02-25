@@ -22,6 +22,7 @@ public class ProductModel implements Serializable{
 	private UUID idProduct; // IDENTIFICADOR UUID SÃO UNIVERSAIS PODEM SER GERADOS EM QUALQUER LOCAL
 	private String name;
 	private BigDecimal value;
+	
 	public UUID getIdProduct() {
 		return idProduct;
 	}
